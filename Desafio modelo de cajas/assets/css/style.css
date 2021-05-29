@@ -1,0 +1,285 @@
+/* ---------------- EJERCICIO 1----------------- */
+
+.cuerpo {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color:green;
+    position: fixed;
+    width: 100%;
+    height: 12%;
+    top: 0;
+}
+
+.main {
+    margin-top: 50px;
+    line-height: 20px;
+}
+.box {
+    border: 2px solid #808080;
+    height: 200px;
+    width: 200PX;
+    padding:5px;
+    display: inline-block;
+    text-align:center;    
+}
+
+
+/* ---------------------EJERCICIO 2 -----------------------*/
+
+html, body {
+    margin: 0;
+    padding:0;
+    
+}
+
+.square {
+    height:200px;
+    width:200px;
+}
+
+.square__red {
+  background-color: rgba(225, 0, 0, .5);
+  left:0;
+  top:0;
+  z-index: -1;
+  width:170px;
+  height:170px;
+}
+
+.square__green {
+    background-color: rgba(0, 255, 0, .5);
+    Left:25px;
+    z-index: -2;
+    width:170px;
+    height:170px;
+    position:absolute;
+    top:25px;
+  }
+
+  .square__blue {
+    background-color: rgba(0, 0, 255, .5);
+    left:50px;
+    z-index: -3;
+    width:170px;
+    height:170px;
+    position:absolute;
+    top:50px;
+  }
+
+  /* ---------------EJERCICIO 3-------------------- */
+body {
+    background-color:whitesmoke;
+}
+
+
+.banderas {
+    background-color: white;
+    width: 500px;
+    height:300px;
+    margin:20px;
+    float:left; 
+    border: 2px solid black;
+
+  }
+
+  .esp1 {
+      background-color:red;
+      height:32%;
+  }
+  .esp2 {
+      background-color:yellow;
+      height:38%;
+
+  }
+  .esp3 {
+    background-color:red;
+    height:30%;
+}
+
+
+.dina1 {
+    background-color: red;
+    width:123px;
+    height:135px;
+    margin-right: 50px;
+}
+.mover {
+    right:454px;
+    top: 21px;
+}
+.position-absolute {
+    position: absolute !important;
+   
+}
+
+.dina2 {
+    background-color: red;
+    width:330px;
+    height: 135px;
+}
+.dina3 {
+    background-color: red;
+    width:123px;
+    height:135px;
+    margin-top: 30px;
+    bottom: 8px;
+}
+.dina4 {
+    background-color: red;
+    width:330px;
+    height: 136px;
+    position: absolute;
+    margin-top:165px ;
+    bottom:5px;
+}
+
+.ara1{
+    background-color:red;
+    width:123px;
+    height:300px;    
+}
+
+.position-relative {
+    position: relative !important;
+}
+
+.move {
+    left:123px;
+    bottom:300px;
+}
+
+
+.ara2{
+    background-color: green;
+    width: 377px;
+    height: 100px;    
+}
+
+.ara3 {
+    background-color:white;
+    width:377px;
+    height:100px;
+}
+
+.ara4 {
+    background-color:black;
+    width:377px;
+    height: 100px;
+    right:50%;
+}
+
+.jap1{
+    background-color:whitesmoke;
+    width: 500px;
+    height:300px;
+    
+}
+
+.circulo {
+   width:130px;
+   height: 130px;
+   background-color: red;
+   border-radius:100%;
+}
+.position-relative1 {
+    position:relative;
+    bottom:68%;
+    left: 38%;
+}
+
+/*  ----------- EJERCICIO 4 ---------------*/
+
+
+.main2 {
+    background-color:#B0CCAB;
+    height:166px;
+    width: 597px;
+    margin:20px;
+    padding: 50px;
+}
+
+.main__paragraph {
+    left:40px;
+    position: relative;
+
+}
+
+/* ------------------EJERCICIO 5 -------------*/
+
+.lente {
+   position:absolute;
+   z-index: index -1;
+}
+
+.ribbon {
+    position:absolute;
+    z-index: 1;
+} 
+
+/*------------- EJERCICIO 6 -------------*/
+body, html {
+    width: 100%;
+    height: 100%;
+}
+
+
+.bateria {
+    position: absolute;
+    
+}
+
+.ribbon2 {
+    position:relative;
+    width: 55px;
+    height: 55px;
+    left: 169px;
+    top:180px;
+}
+
+/*---------------------- EJERCICIO 7-------------------------------*/
+.ribbon3 {
+    position:fixed;
+    width: 70px;
+    height: 110px;
+    left:95%
+    ;
+
+}
+
+/*---------------------- EJERCICIO 8-------------------------------*/
+
+
+
+ul.menu {
+    list-style:none;
+    margin:0;
+    padding: 0;
+}
+
+ul.menu li {
+    background: olive;
+    box-sizing: border-box;
+    float: left;
+    width: 29%;
+}
+
+ul.menu li a {
+    color:#fff;
+    display:inline-block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+ul.menu li a:hover { 
+    background: #000;
+
+}
+
+
+.textop {
+    margin-top: 0%;
+    padding: 30px;
+}
